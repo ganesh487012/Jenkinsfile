@@ -28,6 +28,10 @@ pipeline{
                 sh 'python3 Jenkins.py'
 	    }
         }
-        
+	stage('java'){
+	    steps{
+    		sh 'java java.sc'
+            }
+        }
     }
 }
