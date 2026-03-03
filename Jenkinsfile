@@ -26,6 +26,8 @@ pipeline{
         stage('python'){
             steps{
                 echo "hello word"
-	
+	    }
+        }
+        
     }
 }
