@@ -25,7 +25,7 @@ pipeline{
 	}
         stage('python'){
             steps{
-                echo "python Jenkins.py"
+                bat "python Jenkins.py"
 	    }
         }
         
