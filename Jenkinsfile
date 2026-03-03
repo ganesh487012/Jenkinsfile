@@ -25,7 +25,7 @@ pipeline{
 	}
         stage('python'){
             steps{
-                echo "hello word"
+                echo "python Jenkins.py"
 	    }
         }
         
