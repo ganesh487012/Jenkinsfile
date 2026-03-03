@@ -23,6 +23,9 @@ pipeline{
 		echo "buliding again"
 	    }
 	}
+        stage('python'){
+            steps{
+                echo "hello word"
 	
     }
 }
