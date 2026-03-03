@@ -25,7 +25,7 @@ pipeline{
 	}
         stage('python'){
             steps{
-                     python3 Jenkins.py
+                     python Jenkins.py
 	    }
         }
         
