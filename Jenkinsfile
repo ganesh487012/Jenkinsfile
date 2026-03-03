@@ -8,7 +8,7 @@ pipeline{
         }
         stage('test'){
             steps{
-                echo "testing is done"
+                echo "testing throght all the file is done"
             }
         }
         stage('depoly'){
