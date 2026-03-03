@@ -18,5 +18,11 @@ pipeline{
                 echo "fine"
             }
         }
+        stage('again bulid'){
+ 	    steps{
+		echo "buliding again"
+	    }
+	}
+	
     }
 }
